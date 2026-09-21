@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { getLeaderboard, deleteLeaderboardEntry, clearLeaderboard } from '../api';
-import { useLayout } from '../LayoutContext';
+import { getLeaderboard, deleteLeaderboardEntry, clearLeaderboard } from './api';
+import { useLayout } from './LayoutContext';
 
 export default function Leaderboard() {
   const [leaders, setLeaders] = useState([]);

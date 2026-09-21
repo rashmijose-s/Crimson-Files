@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { getMysteries, startSession } from '../api';
-import { useLayout } from '../LayoutContext';
+import { getMysteries, startSession } from './api';
+import { useLayout } from './LayoutContext';
 
 export default function Home() {
   const [searchParams] = useSearchParams();

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { getMysteries } from '../api';
-import { useLayout } from '../LayoutContext';
+import { getMysteries } from './api';
+import { useLayout } from './LayoutContext';
 
 export default function DashboardLayout({ children }) {
   const { navStatus, timerText } = useLayout();
