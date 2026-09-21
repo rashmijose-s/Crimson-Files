@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import ActiveSession from './components/ActiveSession';
-import Leaderboard from './components/Leaderboard';
-import DashboardLayout from './components/DashboardLayout';
+import Home from './Home';
+import ActiveSession from './ActiveSession';
+import Leaderboard from './Leaderboard';
+import DashboardLayout from './DashboardLayout';
 import { LayoutProvider } from './LayoutContext';
 
 function App() {
