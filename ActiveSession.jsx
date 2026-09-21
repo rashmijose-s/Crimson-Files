@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getClue, submitAnswer, solveMystery } from '../api';
-import { useLayout } from '../LayoutContext';
+import { getClue, submitAnswer, solveMystery } from './api';
+import { useLayout } from './LayoutContext';
 
 export default function ActiveSession() {
   const { id } = useParams();
